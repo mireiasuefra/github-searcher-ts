@@ -1,0 +1,35 @@
+@import "./../../styles/shared.scss";
+
+.user {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 10px;
+  }
+
+  &__bio {
+    padding: 6px 0;
+    font-size: 12px;
+
+    @media (min-width: $breakpoint-tablet) {
+      max-width: 275px;
+      font-size: 14px;
+      padding-right: 20px;
+    }
+  }
+
+  &__linkedin {
+    font-size: 10px;
+
+    @media (min-width: $breakpoint-tablet) {
+      max-width: 450px;
+      font-size: 12px;
+    }
+  }
+}

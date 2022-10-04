@@ -1,0 +1,7 @@
+@import "./../../styles/shared.scss";
+
+.header {
+    &__title {
+        font-family: $body-font;
+    }
+}

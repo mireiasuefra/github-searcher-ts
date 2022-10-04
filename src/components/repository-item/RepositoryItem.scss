@@ -1,0 +1,10 @@
+@import "./../../styles/shared.scss";
+
+.repository {
+    border-bottom: 1px solid $color-border;
+    padding: 15px 5px;
+
+    &__description {
+        color: $color-secondary;
+    }
+}
